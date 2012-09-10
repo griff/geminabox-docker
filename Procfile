@@ -1,0 +1,1 @@
+web:    ./bin/thin start -p $PORT -e $RACK_ENV
