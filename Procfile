@@ -1,1 +1,1 @@
-web:    ./bin/thin start -p $PORT -e $RACK_ENV
+web:    ./bin/thin start -p $PORT -e production
