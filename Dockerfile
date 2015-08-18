@@ -1,7 +1,7 @@
 FROM ruby:2.2.2
 
-RUN mkdir -p /usr/src/app && \
-    chown -R daemon:daemon /usr/src/app && \
+RUN mkdir -p /usr/src/app /var/geminabox && \
+    chown -R daemon:daemon /usr/src/app /var/geminabox && \
     usermod  -d /usr/src/app daemon
 USER daemon
 WORKDIR /usr/src/app
